@@ -1,0 +1,27 @@
+.address {
+	text-align: center;
+	list-style-type: none;
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 25%;
+    height: 15%;
+    background: rgba(0,0,0,.6);
+    padding-left: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+
+    .item1{
+    	padding-bottom: 20px;
+        font-size: 1.3em;
+    }
+
+    .map-button {
+    	width: 100%;
+    }
+}
+
+.address-small {
+	list-style-type: none;
+	font-size: 12px;
+}

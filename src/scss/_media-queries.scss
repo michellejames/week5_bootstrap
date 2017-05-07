@@ -1,0 +1,45 @@
+@media (max-width: $screen-sm) {  
+
+	.desktop-carousel,
+	.todays-menu {
+		display: none;
+	}
+}
+
+@media (min-width: $screen-sm) {  
+
+	.mobile-header {
+		display: none;
+	}
+
+	.address-small {
+		text-align: right;
+		margin-top: 55px;
+	}
+}
+
+@media (min-width: $screen-md) {  
+
+	.mobile-header {
+		display: none;
+	}
+
+	.desktop-carousel {
+		visibility: visible;
+	}
+
+	.two-images {
+
+		margin-top: 80px;
+
+		.tshirt-img,
+		.beans-img {
+			// border: 10px solid #ceb9b4;
+			margin-top: 20px;
+		}
+	}
+
+	.food-items-tea {
+		text-align: right;
+	}
+}
