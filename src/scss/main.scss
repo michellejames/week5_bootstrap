@@ -1,0 +1,162 @@
+
+@import "bootstrap-variables.sass";
+@import "../../vendor/bootstrap/stylesheets/bootstrap";
+
+html, body {
+	background-image: url(../img/www/img/bg-dark.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@font-face {
+  font-family: 'Lobster';
+  src: url('../img/www/fonts/Lobster/Lobster.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Holtwood One SC';
+  src: url('../img/www/fonts/Holtwood_One_SC/HoltwoodOneSC.ttf')  format('truetype');
+}
+
+.headline {
+	text-align: center;
+	font-family: "Lobster";
+	margin-bottom: 30px;
+}
+
+.headline-small {
+	font-family: "Lobster";
+	margin: 50px 0px;
+}
+
+.food-items-headline {
+  font-family: 'Holtwood One SC';
+}
+
+.address {
+	text-align: center;
+	list-style-type: none;
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 25%;
+    height: 15%;
+    background: rgba(0,0,0,.6);
+
+    .address:first-child {
+    	margin-bottom: 50px;
+    }
+
+    .map-button {
+    	width: 100%;
+    }
+}
+
+.address-small {
+	list-style-type: none;
+	font-size: 12px;
+}
+
+#carousel-example-generic {
+	height: 360px;
+	background: #130900;
+	border-top: #5e3c2f;
+	border-bottom: #3c271e;
+}
+
+.food-container {
+	margin-top: -35px;
+}
+
+.todays-menu {
+	font-family: 'Holtwood One SC';
+	text-align: center;
+}
+
+
+.food-items {
+	font-family: helvetica, arial, sans-serif;
+
+	.food-items h4 {
+		font-size: 21px;
+	}
+
+	.food-items p {
+		color: #bf9280;
+	}
+}
+
+.two-images {
+	margin-top: 20px;
+
+}
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: $screen-sm) {  
+
+	.desktop-carousel,
+	.todays-menu {
+		display: none;
+	}
+
+}
+
+@media (min-width: $screen-sm) {  
+
+	.mobile-header {
+		display: none;
+	}
+
+	.address-small {
+		text-align: right;
+		margin-top: 55px;
+	}
+
+
+}
+
+@media (min-width: $screen-md) {  
+
+	.mobile-header {
+		display: none;
+	}
+	.desktop-carousel,
+	.todays-menu {
+		visibility: visible;
+	}
+
+
+	.two-images {
+
+		margin-top: 80px;
+
+
+		.tshirt-img,
+		.beans-img {
+			// border: 10px solid #ceb9b4;
+			margin-top: 20px;
+
+		}
+	}
+
+	.food-items-tea {
+		text-align: right;
+	}
+
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+// @media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+// @media (min-width: @screen-lg-min) {  }
+
