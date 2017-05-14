@@ -1,6 +1,3 @@
-
-var i = 0;
-
-i += 1;
-
-console.log("i = " + i);
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
