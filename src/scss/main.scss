@@ -7,6 +7,7 @@
 @import "carousel-styles";
 @import "food-section";
 @import "addresses";
+@import "beans";
 
 *{
 	box-sizing:border-box;
@@ -28,78 +29,6 @@ html, body {
 }
 
 
-.rating {
-	margin-bottom: 50px;
-	color: #bf9280;
-
-	&.rating-beans-module {
-		color: #80523B;
-		font-size: 20px;
-		margin-bottom: 20px;
-	}
-}
-
-.beans-footer {
-	background: black;
-	opacity: .7;
-	border-top: 1px solid #bf9280;
-
-	&.address-small {
-		text-align: left;
-	}
-}
-
-.main-module {
-	background: #EDDCD5;
-	padding: 20px 10px;
-	border-radius: 10px;
-	margin-bottom: 50px;
-}
-
-.nav-items {
-	color: #bf9280;
-}
-
-.blend-name {
-	margin-bottom: 0;
-}
-
-//content module
-
-.navigation {
-	list-style-type: none;
-	margin-left: 30px;
-	margin-bottom: 50px;
-}
-
-.brand-name {
-	font-family: 'Holtwood One SC';
-	color: #80523B;
-}
-
-.price {
-	color: #80523B;
-	margin-top: 0;
-}
-
-.coffee-description {
-	color: black;
-	padding-bottom: 20px;
-}
-
-.nav-tabs {
-	margin-top: 20px;
-	color: black;
-}
-
-.tab-pane {
-	padding-top: 20px;
-
-	& p {
-		color: black;
-	}
-
-}
 
 
 

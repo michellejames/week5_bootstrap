@@ -1,0 +1,81 @@
+.active-link {
+	color: #9D9392;
+}
+
+.rating {
+	margin-bottom: 50px;
+	color: #bf9280;
+
+	&.rating-beans-module {
+		color: #80523B;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.main-module {
+	background: #EDDCD5;
+	padding: 20px 10px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.nav-items {
+	color: #bf9280;
+}
+
+.blend-name {
+	margin-bottom: 0;
+}
+
+//content module
+
+.navigation {
+	list-style-type: none;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+
+.brand-name {
+	font-family: 'Holtwood One SC';
+	color: #80523B;
+}
+
+.price {
+	color: #80523B;
+	margin-top: 0;
+}
+
+.dollar-sign {
+	font-size: 15px;
+}
+
+.coffee-description {
+	color: black;
+	padding-bottom: 20px;
+}
+
+.nav-tabs {
+	margin-top: 20px;
+	color: black;
+}
+
+.tab-pane {
+	padding-top: 20px;
+
+	& p {
+		color: black;
+	}
+}
+
+.beans-footer {
+	background: black;
+	opacity: .7;
+	border-top: 1px solid #bf9280;
+	padding-left: 50px;
+	padding-right: 50px;
+
+	&.address-small {
+		text-align: left;
+	}
+}
