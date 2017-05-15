@@ -31,12 +31,22 @@ html, body {
 .rating {
 	margin-bottom: 50px;
 	color: #bf9280;
+
+	&.rating-beans-module {
+		color: #80523B;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
 }
 
 .beans-footer {
 	background: black;
 	opacity: .7;
 	border-top: 1px solid #bf9280;
+
+	&.address-small {
+		text-align: left;
+	}
 }
 
 .main-module {
@@ -58,6 +68,8 @@ html, body {
 
 .navigation {
 	list-style-type: none;
+	margin-left: 30px;
+	margin-bottom: 50px;
 }
 
 .brand-name {
@@ -67,6 +79,7 @@ html, body {
 
 .price {
 	color: #80523B;
+	margin-top: 0;
 }
 
 .coffee-description {
